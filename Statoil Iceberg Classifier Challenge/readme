@@ -5,4 +5,5 @@ Methods: (CNN based classification + stacking different CNN models)
 2.Using pre-trained models.(InceptionV3, Resnet50, VGG16, Densenet121)  
 3.Stacking.(Best model*0.5 + others*0.5, cliping, voting for highest prediction)    
 
+Cons: No time for incorporating additional feature information(angles). Turns out the angle feature is the key to further improve accuracy.   
 Pagelink: https://www.kaggle.com/c/statoil-iceberg-classifier-challenge
