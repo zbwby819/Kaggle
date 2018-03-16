@@ -1,7 +1,7 @@
 My first Kaggle competition.  2017/11-2017/12 
 End up Top 13% (419th/3343)
 Methods: (CNN based classification + stacking different CNN models)      
-1.Training my own CNNs from from scratch with 10-cross validation.(NiN + All convolution + Global pooling)  
+1.Training my own CNNs from scratch with 10-cross validation.(NiN + All convolution + Global pooling)  
 2.Using pre-trained models.(InceptionV3, Resnet50, VGG16, Densenet121)  
 3.Stacking.(Best model*0.5 + others*0.5, cliping, voting for highest prediction)    
 
